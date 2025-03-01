@@ -1,7 +1,22 @@
-# Alert System Clone
+# Parent Alert System 
 
 ## Description
-This project is a clone of an alert system that allows users to manage leave forms and authenticate users. It is built using Node.js, Express, and MongoDB.
+Parent Alert System 🚀
+The Parent Alert System is a web-based application designed to facilitate seamless communication between wardens, students, and parents regarding leave applications. Built using the MERN stack, the system enables wardens to manage student leave requests, approve or reject them, and notify parents instantly.
+
+Key Features
+✅ Student Leave Management – Students can submit leave applications with necessary details.
+✅ Warden Dashboard – Wardens can review, approve, or reject leave requests and raise complaints if necessary.
+✅ Parent Notification System – Automated notifications are sent to parents upon leave approval or rejection.
+✅ Student Leave History – Wardens can view a student’s leave history for better decision-making.
+✅ Secure Authentication – Role-based authentication ensures data security and access control.
+
+Tech Stack
+Frontend: React.js
+Backend: Node.js, Express.js
+Database: MongoDB
+Authentication: JWT
+This system enhances transparency between students, wardens, and parents, ensuring better leave management and parental involvement. 🚀
 
 ## Installation Instructions
 1. Clone the repository:
