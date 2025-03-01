@@ -1,0 +1,90 @@
+/* src/pages/HomePage.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+  background-repeat: none;
+  background-image: url("bg1.jpg");
+}
+
+.home-page {
+  /*background-image: url("/bg1.jpg");*/ /* Ensure the correct path */
+  background-size: cover; /* Cover the entire container */
+  background-repeat: none; /* Prevent repeating of image */
+  background-position: center center;
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  width: 80%;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight opacity */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.auth-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Allows for wrapping on smaller screens */
+}
+
+.auth-box {
+  width: 45%;
+  background: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-box h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #268ab2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #005f7a;
+}
+
+@media (max-width: 768px) {
+  .auth-box {
+    width: 90%; /* Make boxes take full width on smaller screens */
+  }
+
+  .home-title {
+    font-size: 2em; /* Slightly smaller title for smaller screens */
+  }
+}
